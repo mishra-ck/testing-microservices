@@ -8,9 +8,9 @@ Such as to exercise a program path or tp verify a cpmliance with specific requir
 ### Writing Automated Test Cases:
 ```
 Automated test consists of 4 phases - 
-1. Setup:
-2. Execute:
-3. Verify:
-4. Teardown:
+1. Setup: Initialize the test fixture, which consists of System Under Test(SUT) and its dependencies, to desired initial state.
+2. Execute: Invoke the SUT (ex: invoke method on class under test).
+3. Verify: Make assertions about the invocation's outcome and the state of SUT.
+4. Teardown:Clean up the test fixture if required (ex: case of DB test)
 
 ```
