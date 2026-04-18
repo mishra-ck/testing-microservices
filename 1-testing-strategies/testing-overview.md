@@ -16,3 +16,24 @@ Automated test consists of 4 phases -
 4. Teardown:Clean up the test fixture if required (ex: case of DB test)
 ```
 ![image-2](https://github.com/mishra-ck/testing-microservices/blob/add-concepts/1-testing-strategies/Test%20Runner.png)
+
+---
+### There are two types of test doubles:
+
+A test double is an Object that simulates the behaviour of the dependency.
+1. Stub: A stub is a test double that returns value to the SUT. 
+2. Mock: A mock is a test double that a test uses to verify that the SUT correctly invokes a depndency.
+
+We can implement test double using Mockito, a popular mock framework for java.
+
+---
+### Different types of tests:
+
+Automated tests are used to verfiy the functional aspect of the application, can be divided into 4 parts-
+
+1. Unit Test: test smaller part of service, like class.
+2. Integration Test: verify that a service can interact with infrastructure services such as database and others.
+3. Component Test: acceptance tests for an individual service.
+4. End-To-End Test: acceptance tests for entire application.
+
+---
