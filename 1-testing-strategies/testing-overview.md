@@ -37,3 +37,12 @@ Automated tests are used to verfiy the functional aspect of the application, can
 4. End-To-End Test: acceptance tests for entire application.
 
 ---
+### Using Brian Marick's Test Quadrant to categorize tests:
+
+The test quadrant categoirizes tests into 2 dimensions-
+
+✅ Whether test is business facing or technolofy facing.
+✅ Whether the goal of test is to support programming or critise the application.
+
+
+
