@@ -4,7 +4,7 @@ Overview of testing
 A Test case is a set of inputs, execution conditions, and expected results developed for a particular objective,
 Such as to exercise a program path or tp verify a cpmliance with specific requirement.
 
-![Testing overview.png](/Testing overview.png)
+![image](https://github.com/mishra-ck/testing-microservices/blob/add-concepts/1-testing-strategies/Testing%20overview.png)
 
 ---
 ### Writing Automated Test Cases:
@@ -15,4 +15,4 @@ Automated test consists of 4 phases -
 3. Verify: Make assertions about the invocation's outcome and the state of SUT.
 4. Teardown:Clean up the test fixture if required (ex: case of DB test)
 ```
-![Test Runner.png](/Test Runner.png)
+![image-2](https://github.com/mishra-ck/testing-microservices/blob/add-concepts/1-testing-strategies/Test%20Runner.png)
