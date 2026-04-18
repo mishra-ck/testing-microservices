@@ -42,7 +42,24 @@ Automated tests are used to verfiy the functional aspect of the application, can
 The test quadrant categoirizes tests into 2 dimensions-
 
 ✅ Whether test is business facing or technolofy facing.
+
 ✅ Whether the goal of test is to support programming or critise the application.
 
+![testing-quadrants](https://github.com/mishra-ck/testing-microservices/blob/add-concepts/1-testing-strategies/Testing-Quadrants.png)
+
+Test quadrants defines four different types of tests :
+
+1. Q1- Support programming/technology facing : unit and integration test
+2. Q2- Support programming/business facing : component and end-to-end test
+3. Q3- Critique application/business facing : usability and exploratory testing
+4. Q4- Critique application/technology facing : non-functional performance test like performance tests
+
+---
+### Using Test Pyramid as a guide for testing efforts:
+
+The idea of test pyramid is that as we move up the pyramid we should write less tests.
+We should lot os unit tests and few end-to-end tests.
 
 
+
+---
