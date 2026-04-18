@@ -60,6 +60,7 @@ Test quadrants defines four different types of tests :
 The idea of test pyramid is that as we move up the pyramid we should write less tests.
 We should lot os unit tests and few end-to-end tests.
 
+![test-pyramid](https://github.com/mishra-ck/testing-microservices/blob/add-concepts/1-testing-strategies/test-pyramid.png)
 
 
 ---
